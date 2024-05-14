@@ -35,6 +35,6 @@
 {
 let number=2025;
 if(number%4==0){
-    console.log(number +" not reap year")
-}else console.log(number + " not reap year")
+    console.log(number +" not leap year")
+}else console.log(number + " not leap year")
 }
