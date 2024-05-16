@@ -52,7 +52,7 @@ let age = 15;
         console.log("can choose any course");
     }
     else if((maths=="pass") && (english=="pass" || kiswahili=="pass")){
-        econsole.log("computer science");
+        console.log("computer science");
     }else if((maths=="pass") && (english=="pass") && (kiswahili=="pass")){
         console.log("journalism");
     }else if((maths=="pass") && (physics=="pass") && (kiswahili=="pass" || english=="pass")){
@@ -65,6 +65,31 @@ let age = 15;
     else{
         console.log("not qualified");
     }
+}
+{
+
+let math="pass"
+let eng="pass"
+let kisw="pass"
+let bio="pass"
+let physics="pass"
+let chem="pass"
+let geo="pass"
+let history="pass"
+
+if((math="pass")&&(eng=="pass") && (kisw=="pass")&& (bio=="pass") &&(physics=="pass")&& (chem=="pass")&& (geo="pass")&& (history="pass")){
+    console.log("You Can Choose Any Course")
+}else if((math=="pass") &&(eng=="pass" || kisw =="pass") && (geo=="pass" || history=="pass")){
+    console.log("Computer Science")
+}else if((math=="pass") && (eng="pass")&&(kisw="pass")&&(geo="pass" || history=="pass")){
+    console.log("Journalism")
+}else if((math=="pass")&&(eng=="pass" || kisw=="pass") &&(geo="pass" || history=="pass") && (physics=="pass" || chem=="pass")){
+    console.log("Engineering")
+}else if((math=="pass") && (eng=="pass" || kisw=="pass") &&(chem="pass") && (chem="pass") &&(geo="pass" || history=="pass")){
+    console.log("Medicine")
+}else
+console.log("Not qualified")
+
 }
 
 
