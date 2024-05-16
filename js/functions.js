@@ -25,6 +25,32 @@
     twoGreetings("Jambo", "Hello")
 }
 
+{
+    function getsum(n){
+        let sum=(n*(n+1))/2;
+        return (n*(n+1))/2;
+    }
+    let ans= getsum(5)
+    console.log(getsum(5));
+}
+{
+    function getsum(n){
+        if (n==0){
+            return 0
+        }
+        return getsum(n-1)+n;
+    }
+    console.log(getsum(5));
+}
+
+{
+    function getareaoftrapizium(a, b, h){
+        return((a+b)/2*h);
+    }
+    let ans=getareaoftrapizium(20,40,16);
+    console.log(ans)
+}
+
 
 
 
