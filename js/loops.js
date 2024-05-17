@@ -12,5 +12,8 @@
     console.log(arr)
 }
 {
-
+let n=5
+for(let k=0; k<=n; k++)
+    console.log(k);
+console.log(sorted.reverse)
 }
