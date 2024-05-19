@@ -23,8 +23,7 @@
     const numbers = [45, 78, 90, 56, 43, 56, 78, 64]
     function getsum(){
         for(let i=0; i<numbers.length; i++){
-            sum = sum + numbers[i]
-        }
+gcommit
     }
     console.log(getsum())
 }
