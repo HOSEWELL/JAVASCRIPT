@@ -1,4 +1,4 @@
-const string="zindua"
+const string="Hosewell"
 
 
 function countVowels(string) {
@@ -14,3 +14,19 @@ function countVowels(string) {
     return vowelCount;
 }
 console.log(countVowels(string));
+
+{
+    function countVowels(user_input){
+  let vowels="aeiou"
+  let count=0
+
+  for(let i=0; i<user_input.length; i++){
+    if(vowels.includes(user_input[i])){
+        count++
+    }
+  }
+  return count;
+    }
+    console.log(countVowels("zindua"));
+
+}
