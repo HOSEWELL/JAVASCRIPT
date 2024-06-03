@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>news</title>
+</head>
+<body>
+  <div>
+    <h1>Search For Breaking News</h1>
+    <button onclick="searchNews()">Search</button>
+    <ul id="newsList"></ul>
+  </div>
+  <script src="../js/news.js"></script>
+
+</body>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px 35em;
+    }
+
+    h1 {
+      color: #e41313;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      font-size: 16px;
+    }
+
+    #newsList {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    #newsList li {
+      margin-bottom: 10px;
+    }
+  </style>
+  </html>

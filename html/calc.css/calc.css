@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    padding: 10em 40em;
+}
+.calculator{
+   margin: 20%;
+   border: solid;
+}
+input{
+    padding: 20px;
+    width: 46%;
+    color: red;
+    font-size: xx-large;
+    background-color: blanchedalmond;
+}
+button{
+    height: 80px;
+    width: 80px;
+    font-weight: bolder;
+    font-size: xx-large;
+    background-color: violet;
+    border-radius: 7px;
+    
+}
+.answer{
+    width: 26%;
+    font-weight: bolder;
+    font-size: xx-large;
+}
